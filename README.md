@@ -26,10 +26,12 @@ cd CodeAlpha_Titanic_Classification
 # Run these to upload your perfect layout to your account
 git init
 git add .
-git commit -m "Complete neat repository framework"
+git commit -m "Initial commit: Production ready pipeline setup for CodeAlpha Task 1"
 git branch -M main
-git remote https://github.com/shyamsasim-del/Code-Alpha-
+git remote add origin https://github.com/shyamsasim-del/Code-Alpha-.git
 git push -u origin main
+
+
 
 
 
