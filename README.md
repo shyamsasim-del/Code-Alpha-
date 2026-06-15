@@ -28,7 +28,7 @@ git init
 git add .
 git commit -m "Complete neat repository framework"
 git branch -M main
-git remote add origin https://github.com/shyam-m/CodeAlpha_Titanic_Classification.git
+git remote https://github.com/shyamsasim-del/Code-Alpha-
 git push -u origin main
 
 
