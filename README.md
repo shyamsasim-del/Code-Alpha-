@@ -1,7 +1,7 @@
 # Code-Alpha-
 To obtain the structural pattern of data science
 Author:Shyam M
-URL:https://github.com/shyamsasi-del/Code-Alpha-
+URL:https://github.com/shyamsasim-del/Code-Alpha-
 📁 CodeAlpha_Titanic_Classification  <-- My
  main project folder
 │
