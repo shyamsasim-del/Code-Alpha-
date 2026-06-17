@@ -35,6 +35,8 @@ Task
 Code Alpha Data Science — Task 1
 📖 Project Overview
 The Titanic Survival Prediction project is a classic binary classification problem. Using passenger attributes such as age, sex, class, and fare, we train multiple machine learning models to predict whether a passenger survived the tragic 1912 sinking.
+
+
 ###Repository structure
 │
 ├── 📓 model.ipynb               ← Main Jupyter Notebook (full pipeline)
@@ -63,6 +65,8 @@ Hyperparameter Tuning — tuned estimator count, depth & learning rate
 Cross-Validation — Stratified 5-Fold CV for robust evaluation
 Rich Visualisations — dark-themed dashboards for EDA and model performance
 Model Persistence — best model saved with joblib for inference
+
+
 ##📊 Model Results
 Model
 Accuracy
