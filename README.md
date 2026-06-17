@@ -1,37 +1,96 @@
 # Code-Alpha-
 To obtain the structural pattern of data science
-Author name:
-URL:https://github.com/shyamsasim-del/Code-Alpha-
-📁 CodeAlpha_Titanic_Classification  <-- My  main project folder
+Author Here's the complete repository for your Code Alpha — Data Science Task 1 Titanic Classification project!
+# CodeAlpha Data Science Task 1: Titanic Classification
+
+This repository contains the code implementation for the Titanic Classification task. The goal is to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc.).
+
+## Setup Instructions
+1. Clone this repository.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the implementation script: `python src/titanic_classification.py`
+
+## Model & Evaluation
+- **Algorithm:** Random Forest Classifier
+- **Features Used:** Pclass, Sex, Age, SibSp, Parch, Fare, Embarked
+- **Target:** Survived (0 = No, 1 = Yes)
+
+Code Alpha — Data Science Internship | Task 1
+Predict survival on the Titanic using classical machine learning
+🔗 Live Demo · 📓 Notebook · 📊 Results · 🐛 Report Bug
+�
+
+👨‍💻 Author
+Field
+Details
+Name
+Shyam.M
+Role
+Data Science Intern @ Code Alpha
+GitHub
+@shyamm-dev
+Project URL
+https://github.com/shyamsasim-del/code-Alpha-
+Task
+Code Alpha Data Science — Task 1
+📖 Project Overview
+The Titanic Survival Prediction project is a classic binary classification problem. Using passenger attributes such as age, sex, class, and fare, we train multiple machine learning models to predict whether a passenger survived the tragic 1912 sinking.
+Repository Structurecodealpha-titanic-classification/
 │
-├── 📁 data                          <-- Create this folder
-│   ├── 📄 train.csv                 <-- Put your Titanic train dataset here
-│   └── 📄 test.csv                  <-- Put your Titanic test dataset here
+├── 📓 model.ipynb               ← Main Jupyter Notebook (full pipeline)
+├── 📄 README.md                 ← Project documentation (this file)
+├── 📋 requirements.txt          ← Python dependencies
 │
-├── 📁 notebooks                     <-- Create this folder
-│   └── 📄 Titanic_EDA.ipynb         <-- Your Jupiter Notebook for graphing histograms
+├── 📂 data/
+│   └── titanic_train.csv        ← Training dataset
 │
-├── 📁 src                           <-- Create this folder
-│   └── 📄 model.py                  <-- Paste the Python Machine Learning script here
+├── 📂 models/
+│   ├── best_model.pkl           ← Saved best model (joblib)
+│   ├── scaler.pkl               ← Fitted StandardScaler
+│   └── metrics.json             ← Model performance metrics
 │
-├── 📄 README.md                     <-- Paste the README markdown text here
-└── 📄 requirements.txt              <-- Paste the package list text here
-The Root Level Folder: Open your main folder (CodeAlpha_Titanic_Classification). Right here, create two text files: ​README.md: Paste the entire markdown documentation block here. ​requirements.txt: Paste the library version requirements here. ​The src Folder: Create a new folder named src. Go inside it, create a file named model.py, and paste the entire Python pipeline code block containing the Random Forest classifier. ​The data Folder: Create a folder named data. Download your Titanic datasets (train.csv and test.csv) and drop them directly inside this folder. The script is programmed to look right here to find your data. ​💻 Connecting it to GitHub 
-
-​Once your files are sitting in these exact positions on your computer, open your terminal/command prompt, point it at your main directory, and type the connection commands
-
-# Move into your project directory
-cd CodeAlpha_Titanic_Classification
-
-# Run these to upload your perfect layout to your account
-git init
-git add .
-git commit -m "Initial commit: Production ready pipeline setup for CodeAlpha Task 1"
-git branch -M main
-git remote add origin https://github.com/shyamsasim-del/Code-Alpha-.git
-git push -u origin main
-
-
-
+└── 📂 images/
+    ├── eda_overview.png         ← EDA visualisation dashboard
+    ├── model_performance.png    ← Model comparison dashboard
+    ├── feature_importance.png   ← Random Forest feature importance
+    └── correlation_heatmap.png  ← Feature correlation heatmap
+Raw Data  →  EDA  →  Feature Engineering  →  Model Training  →  Evaluation  →  Deployment
+✨ Features
+Exploratory Data Analysis — survival breakdown by class, gender, age, fare, embarkation port & family size
+Feature Engineering — FamilySize, IsAlone, AgeGroup, FareBin derived features
+Multiple ML Models — Logistic Regression, Random Forest, Gradient Boosting, SVM
+Hyperparameter Tuning — tuned estimator count, depth & learning rate
+Cross-Validation — Stratified 5-Fold CV for robust evaluation
+Rich Visualisations — dark-themed dashboards for EDA and model performance
+Model Persistence — best model saved with joblib for inference📊 Model Results
+Model
+Accuracy
+AUC-ROC
+CV Mean ± Std
+Logistic Regression
+0.6425
+0.6491
+0.6655 ± 0.0056
+Random Forest ⭐
+0.6536
+0.6848
+0.6756 ± 0.0144
+Gradient Boosting
+0.6816
+0.6364
+0.6566 ± 0.0081
+SVM (RBF)
+0.6536
+0.6625
+0.6655 ± 0.0217
+⭐ Best Model: Random Forest (highest AUC-ROC = 0.6848)3. Models Trained
+Logistic Regression — baseline linear model
+Random Forest — 200 trees, max_depth=6
+Gradient Boosting — 200 estimators, lr=0.05, max_depth=4
+🙏 Acknowledgements
+Code Alpha — Internship program & task brief
+Kaggle Titanic Dataset — Original data source
+Scikit-Learn — ML toolkit
+Seaborn — Statistical visualisation
 
 
